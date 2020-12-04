@@ -1,2 +1,2 @@
-# CodeForPosts
-Code for my blogposts
+# Blogpost_Interactive_Model_Evaluation_Using_the_Panel_Python_Package
+Code for blogpost with the same name
