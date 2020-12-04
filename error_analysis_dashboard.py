@@ -4,8 +4,6 @@ pn.extension('plotly')
 import plotly.express as px
 import param
 import numpy as np
-import sys
-sys.path.append(r'C:\Users\user\Google Drive\my projects\DS dashboard tool')
 import utils
 
 
