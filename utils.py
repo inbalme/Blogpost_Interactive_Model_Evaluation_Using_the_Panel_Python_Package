@@ -61,6 +61,7 @@ def plot_scatter(x, y, add_unit_line=True, add_R2=True, layout_kwargs=None):
                                  mode='lines',
                                  name=''))
     fig.update_layout(showlegend=False)
+
     if layout_kwargs:
         fig.update_layout(**layout_kwargs)
     return fig

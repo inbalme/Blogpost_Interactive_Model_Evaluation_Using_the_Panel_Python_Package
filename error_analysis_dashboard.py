@@ -127,7 +127,7 @@ def main():
     boxplot_panel = pn.Column(dash.wrap_param_var_to_inspect,
                               dash.error_boxplot_view)
 
-    plots_panel = pn.Row(scatter_panel, boxplot_panel, width=1000, height=400) #width_policy='max',
+    plots_panel = pn.Row(scatter_panel, boxplot_panel, width=1000, height=400)
 
     tables_panel = pn.Column(pn.pane.Markdown('## Model Performance Metrics', style={'font-family': "serif"}),
                              dash.metrics_table_view,
