@@ -6,7 +6,8 @@ import param
 import numpy as np
 import utils
 
-
+# create a class for our dashboard, that inherits from param.Parametrized.
+# class attributes are the parameters that can be changed by the user.
 class BasicDashboardComponents(param.Parameterized):
     # variables to be displayed by widgets and set by the user:
     # select data column for scatter plot x-axis:
@@ -137,11 +138,10 @@ def main():
     dashboard = pn.Column(pn.pane.Markdown('# Error Analysis Dashboard', style={'font-family': "serif"}),
                           pn.Row(widgets_panel, pn.Spacer(width=20), plots_panel),
                           pn.Spacer(height=50),
-                                tables_panel)
-
-
+                          tables_panel)
 
     dashboard.show()
+
 
 if __name__ == '__main__':
     main()
